@@ -1,0 +1,45 @@
+
+.top_main_body{
+    text-align: center;
+    width: 90%;
+    height: 10%;
+    border-width: 2px;
+    border-style: solid;
+    border-color: white white #e0ded7 white;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+
+.left_side, .right_side{
+    font-size: 18px;
+    font-weight: 700;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.mid_span{
+    color: black;
+}
+
+.mid_ptag{
+    color: #ec502d;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+
+.right_btn{
+    font-size: 15px;
+    margin-top: 10px;
+    margin-left: 20px;
+    border-radius: 0px 16px 0px 16px;
+    height: 60%;
+    background-color: #ec502d;
+    color: white;
+    border: none;
+}
+
+.right_side{
+    justify-content: center;
+}
