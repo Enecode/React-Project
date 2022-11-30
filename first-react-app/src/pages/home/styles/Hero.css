@@ -1,0 +1,34 @@
+.hero_main {
+    background-image: url('../../../assets/images/truecaller.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 750px;
+    width: 90%;
+}
+
+
+.hero_sec{
+    padding-top: 50px;
+    padding-left: 50px;
+    width: 50%;
+    height: 100%;
+
+}
+
+.hero_ptag_one{
+    font-size: 60px;
+    font-weight: 500;
+}
+
+
+.hero_ptag_two{
+    font-size: 25;
+    font-weight: 10px;
+
+}
+
+
+.hero_btn{
+    width: 100%;
+    justify-content: space-between;
+}
