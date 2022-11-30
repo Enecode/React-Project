@@ -40,6 +40,6 @@
     border: none;
 }
 
-.right_side{
-    justify-content: center;
+.right_ptag{
+    margin-left: 20px;
 }

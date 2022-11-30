@@ -1,13 +1,17 @@
 import React from 'react';
 import '../styles/Home.css'
-import Truecaller from '../../../assets/images/truecaller.jpg'
+import TopNav from './TopNav';
+import Button from '../../../reusableComponents/Button';
+import Hero from "../../home/components/Hero"
+import Counter from './StateMgt';
 
 function Home(){
     return(
         <div className="home_page">
-            <div>
-                <img src={Truecaller} alt='truecaller' className='image' />
-            </div>
+            <TopNav />
+            <Hero />
+            <Button />
+            <Counter />
         </div>
     );
 }

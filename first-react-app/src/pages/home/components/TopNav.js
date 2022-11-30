@@ -1,7 +1,7 @@
 import React from 'react';
 import "../styles/TopNav.css"
 import Home from './Home';
-import Button from ''
+import Button from '../../../reusableComponents/Button';
 
 function TopNav(){
     return(
@@ -22,8 +22,21 @@ function TopNav(){
             <div className='right_side'>
                 <p className='right_ptag'>Company</p>
                 <p className='right_ptag'>Pricing</p>
-                <button className='right_btn'>Company Us</button>
-        
+                {/* <button className='right_btn'>Company Us */}
+                <Button 
+                        name="Contact Us"
+                        // width="40%"
+                        height="50px"
+                        // borderTopLeft="0px"
+                        // borderBottomLeft="16px"
+                        // borderBottomRight="0px"
+                        // borderTopRight="16px"
+                        color="white"
+                        bgColor="#ec502d"
+                        border="none"
+                        marginLeft="20px"
+                    />
+                {/* </button> */}
             </div>
         </div>
         );
